@@ -53,12 +53,6 @@ def happy_bday(name):
 
 
 
-# Loops
-
-
-
-for num in range (100000000):
-    print(num)
 
 
 
@@ -78,3 +72,22 @@ while a < 10:
 # Random Numbers
 import random # This should be on line 1
 print(random.randint(0, 1000))
+
+
+
+
+# Recasting
+C = '1'
+print(C == 1) # we have a string and an interger
+print(int(C) == 1)
+print(C == str(1))
+
+
+# comparisons
+
+print(1 == 1) # use a double equal sign
+print(1 != 2) # 1 is not equal to 2
+print(not (1 != 1))
+
+
+
