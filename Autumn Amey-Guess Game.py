@@ -4,10 +4,30 @@
 print("Your guess ?")
 number = input("<_")
 
+
 import random
 print(random.randint(1, 10))
 
-print(1 != 2) # 1 is not equal to 2
+
+
+
+
+c = '1'
+print(c == 1)  # we have a string and an int
+print(int(c) == 1)
+print(c == str(1))
+
+
+# Comparisons
+
+print(1 == 1)  # Use a double equal sign
+print(1 != 2)  # 1 is not equal to 2
+print(not False)
+
+
+
+
+
 
 
 
