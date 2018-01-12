@@ -15,9 +15,22 @@ if total == 7:
     money += 4
 
 else:
-    total != 7:
+    total != 7
     money -=1
+
 print(money)
+
+while money < 0:
+
+ if total == 7:
+    money += 4
+
+else:
+    total != 7
+    money -=1
+    
+
+
 
 
 
